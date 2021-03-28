@@ -14,7 +14,7 @@ class fuzzy():
     alpha=[0]*4
     Z=[0]*4
     
-    def init(self, permintaan, persediaan):
+    def __init__(self, permintaan, persediaan):
         self.X=permintaan
         self.Y=persediaan
         self.fPermTurun()
